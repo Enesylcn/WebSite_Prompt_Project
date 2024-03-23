@@ -1,0 +1,54 @@
+Hi,now  we will create a portfolio web site with you. 
+you should acting like a Fullstack Developer and understand my features. 
+Okey lets go then, first this web site will have my career portfolio so it will show about me. 
+It should use Bootstrap latest version for framework and it can use bootstrap sample designs for website design. 
+first it should have 3 section (home,about and contanct me).
+It should be semantic so you have to add sidebar, navbar, Header, Body, footer. 
+and after Sidebar has to  contain "profil pic, Name Surname, Cellphone, Birthdate, Adress, Social media accounts(linkedin and github) and skills. I want you to place the rest of the design appropriately on the page. Let's give it a try.
+---------------------------------------------------------------------------------------------------------------
+
+
+Can you create css document for this ? 
+---------------------------------------------------------------------------------------------------------------
+
+
+We are doing well for now. Now there are some things I want you to organize.
+The data in the sidebar should be centered on the sidebar. There is no need to have titles like "Social Media:", just creating an area where I can add the content will be enough.
+All Headings should be in Italics.
+"Hello, Welcome!" on the left side of the navbar. must be added and must be Bold.
+
+---------------------------------------------------------------------------------------------------------------
+
+
+" <div>
+                            <em>Skills:</em>
+                            <ul>
+                                <li>Skill 1</li>
+                                <li>Skill 2</li>
+                                <li>Skill 3</li>
+                                <!-- Add more skills as needed -->
+                            </ul>
+                        </div>" iki sütun skill eklemeliyim. 
+
+---------------------------------------------------------------------------------------------------------------
+
+
+As you know, we have 3 sections. At the top of these sections "
+<!-- Main content -->
+  <div class="col-lg-9">" can you add a Slider here?
+
+
+---------------------------------------------------------------------------------------------------------------
+I want to add text on top of these sliders. And I want to direct it to the section I want by adding a button.
+---------------------------------------------------------------------------------------------------------------
+
+"<img src="images/Default_I_have_a_portfolio_site_where_I_produce_information_or_0.jpg"
+                                class="d-block w-50" alt="Slider Image 1">
+                            <div class="carousel-caption">
+                                <h3>Welcome to My Portfolio</h3>
+                                <p>This is the Home section of my portfolio. Feel free to explore!</p>
+                                <a href="#home" class="btn btn-primary">Learn More</a>
+                            </div>" bu bir slider içeriğidir. "carousel-caption" div içeriğini bir dikdörgenin sağ tarafının başından başlayacak şekilde konumlandırılmasını sağlamak istiyorum. Bir de bu metin içeriğinin rengini değiştirmek isityorum. 
+---------------------------------------------------------------------------------------------------------------
+
+Bu prompt 4. denememdi. Belirtmek isterim :D

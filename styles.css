@@ -1,0 +1,80 @@
+/* Custom styles for your portfolio website */
+
+/* Sidebar styles */
+.sidebar {
+    padding: 20px;
+    text-align: center;
+    /* Centering content */
+}
+
+.sidebar img {
+    border-radius: 50%;
+    max-width: 100%;
+}
+
+.sidebar h2 {
+    font-size: 1.5rem;
+    margin-top: 10px;
+}
+
+.sidebar p {
+    margin-bottom: 5px;
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    margin-bottom: 5px;
+}
+
+/* Main content styles */
+#home h1,
+#about h1,
+#contact h1 {
+    font-style: italic;
+    /* Italics for headings */
+}
+
+/* Navbar styles */
+.navbar {
+    margin-bottom: 20px;
+}
+
+/* Footer styles */
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.contact-container {
+    display: flex;
+}
+
+.contact-info {
+    flex: 1;
+}
+
+.map-container {
+    flex: 1;
+    text-align: right;
+}
+
+.carousel-caption.caption-right {
+    position: absolute;
+    top: 50%;
+    left: 650px;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.7);
+    /* Dikdörtgenin arka plan rengi */
+    color: #ffffff;
+    /* Metin rengi */
+    padding: 20px;
+    width: 50%;
+    /* Dikdörtgenin genişliği */
+    max-width: 400px;
+    /* İstediğiniz maksimum genişlik */
+}

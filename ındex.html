@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css"> <!-- Link to your custom CSS -->
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand" href="#"><strong>Hello, Welcome!</strong></a> <!-- Added "Hello, Welcome!" -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About Me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact Me</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page content -->
+    <div class="container-fluid">
+        <div class="row">
+
+            <!-- Sidebar -->
+            <div class="col-lg-3 bg-light">
+                <div class="sidebar">
+                    <div class="text-center"> <!-- Centering content -->
+                        <img src="images/1709135600919.jpg" class="img-fluid" alt="Profile Picture">
+                        <h2>Enes Yalçın</h2>
+                        <p>Email: <a href="mailto:enesylcn57@outlook.com">enesylcn57@outlook.com</a></p>
+                        <p>Phone: <a href="tel:+905350723764">+90 (535) 072 3764</a></p>
+                        <p>29.10.1999</p>
+                        <p>Gümüşpala Mahallesi<br>Alsancak Sokak No. 11 Avcılar/İstanbul</p>
+
+                        <!-- Social media and skills content -->
+                        <div>
+                            <a href="https://www.linkedin.com/in/enesyalcin57/">LinkedIn</a><br>
+                            <a href="https://github.com/Enesylcn">GitHub</a>
+                        </div>
+                        <br>
+                        <!-- Skills divided into two columns -->
+                        <div class="row">
+
+                            <div class="col-6">
+
+                                <ul>
+                                    <li>C#</li>
+                                    <li>JavaScript</li>
+
+                                    <!-- Add more skills as needed -->
+                                </ul>
+                            </div>
+                            <div class="col-6">
+                                <ul>
+                                    <li>Python</li>
+                                    <li>SQL</li>
+                                    <!-- Add more skills as needed -->
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Main content -->
+            <div class="col-lg-9">
+                <!-- Slider for Home section -->
+                <section id="home-slide" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="images/Default_Unlike_dozens_of_people_sitting_in_a_beer_hall_a_man_i_3.jpg"
+                                class="d-block w-50" alt="Slider Image 1">
+                            <div class="carousel-caption caption-right">
+                                <p>Are you ready to get to know me? I would love to do this face to face over our beers
+                                    :(
+                                    But if you want to continue getting to know it, you can start this process with the
+                                    Home button :)</p>
+                                <a href="#home" class="btn btn-primary">Home</a>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/Default_There_should_be_a_route_drawn_in_a_dark_tone_on_a_virt_0.jpg"
+                                class="d-block w-50" alt="Slider Image 1">
+                            <div class="carousel-caption caption-right">
+                                <p>I would like to inform you about the important points of my life path and hope that
+                                    the important decisions that everyone will make one day will be made in the best
+                                    way. You can access the About Me section by clicking the button.</p>
+                                <a href="#About" class="btn btn-primary">About Me</a>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/Default_I_have_a_portfolio_site_where_I_produce_information_or_0.jpg"
+                                class="d-block w-50" alt="Slider Image 1">
+                            <div class="carousel-caption caption-right">
+                                <p>Do you want to get to know the amazing city I live in? Here is your chance to get to
+                                    know this city with me. Click the button and contact me with my contact information!
+                                </p>
+
+                                <a href="#Contact" class="btn btn-primary">Contact Me</a>
+                            </div>
+                        </div>
+                        <!-- Add more carousel items as needed -->
+                    </div>
+                    <!-- Slider controls -->
+                    <!-- Controls for the carousel -->
+                    <button class="carousel-control-prev" type="button" data-bs-target="#home-slide"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#home-slide"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </section>
+                <section id="home">
+                    <!-- Your home content goes here -->
+                    <h1>Welcome to my website!</h1>
+                    <p>It's a great pleasure and honor to have you here. I am truly delighted to welcome you and look
+                        forward to getting to know you a little better.</p>
+                    <p>I graduated from Düzce University in 2021 and have been continuously developing myself in the
+                        field of web development ever since. Thanks to the education I received and the experiences I
+                        gained, I have been working with the title of "Assistant Software Expert" since July 2022.
+                        Keeping up with the rapid development of the software world and adapting to these changes has
+                        always excited me.</p>
+                    <p>In addition, I have recently become interested in artificial intelligence technologies and have
+                        been dedicating time to develop myself in this field. This passion, in fact, was the main
+                        motivation behind creating this website. This website was created using ChapCPT 3.5 as part of
+                        the "Aygaz GenAI Bootcamp: Introduction to Prompt Engineering" bootcamp project.</p>
+                    <p>For everyone visiting my website, I believe they will have the opportunity to explore some of the
+                        knowledge and experiences I have shared here. I am here to get to know you better and share my
+                        experiences. If you have any questions or feedback, please feel free to contact me.</p>
+                    <p>Best regards, Welcome again!<br></p>
+                </section>
+
+                <section id="about">
+                    <h2>About Me</h2>
+                    <p>Hi there! I'm Enes Yalçın, a passionate web developer with a diverse background and a constant
+                        thirst for learning.</p>
+                    <p>I embarked on my journey into the world of technology during my high school years back in 2013.
+                        Since then, I have been deeply immersed in the fascinating realm of coding and software
+                        development. What started as a curiosity quickly evolved into a passion, driving me to pursue a
+                        career in web development.</p>
+                    <p>After graduating from Düzce University in 2021 with a degree in Electric Electronics Engineering,
+                        I dove headfirst into the professional world, eager to apply my knowledge and skills. Since July
+                        2022, I have been working as an Assistant Software Expert, where I've had the opportunity to
+                        further refine my abilities and contribute to exciting projects.</p>
+                    <p>Besides my professional endeavors, I am an avid enthusiast of artificial intelligence
+                        technologies. Exploring the intricacies of AI and incorporating them into my projects has been a
+                        thrilling journey that continues to captivate me.</p>
+                    <p>Outside of work, you can often find me immersed in books, exploring the latest advancements in
+                        technology, or enjoying outdoor adventures. I believe in the power of continuous learning and
+                        personal growth, and I'm always on the lookout for new challenges and opportunities to expand my
+                        horizons.</p>
+                    <p>Thank you for taking the time to learn a bit about me. Feel free to reach out if you'd like to
+                        connect or collaborate on any exciting projects!</p>
+
+                </section>
+
+                <section id="contact">
+                    <h2>Contact Me</h2>
+                    <div class="contact-container">
+                        <div class="contact-info">
+                            <p>If you have any questions, feedback, or just want to say hello, feel free to reach out!
+                            </p>
+                            <p>Email: <a href="mailto:enesylcn57@outlook.com">enesylcn57@outlook.com</a></p>
+                            <p>Phone: <a href="tel:+905350723764">+90 (535) 072 3764</a></p>
+                        </div>
+                        <div class="map-container">
+                            <p>Location:
+                                <a href="https://maps.app.goo.gl/U7tKBc15D6Q6Pk4W7" target="_blank"><img
+                                        src="images/1000_F_393219999_3z8VKNU6STCisQvwax3p71bowBbHzCKs.jpg" alt="Address"
+                                        width="150" height="200"></a>
+                            </p>
+                        </div>
+                    </div>
+
+
+
+                </section>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="text-center bg-light p-3">
+        <p>&copy; 2024 Your Name. All rights reserved.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
